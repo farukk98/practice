@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_1/search_weather/ui/search_weather_ui.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellow),
         useMaterial3: true,
       ),
-      home: const WidgetOne(),
+      home: const SearchWeatherUI(),
     );
   }
 }
